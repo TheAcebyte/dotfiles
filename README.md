@@ -1,6 +1,6 @@
 # dotfiles
 
-Neovim, kitty and starship dotfiles.
+Neovim, kitty and starship configuration files.
 
 ## Requirements
 
