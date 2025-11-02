@@ -20,6 +20,7 @@ return {
           "clangd",
           "cssls",
           "html",
+          "jdtls",
           "jsonls",
           "lua_ls",
           "pylsp",
@@ -77,8 +78,8 @@ return {
       require("mason-null-ls").setup({
         automatic_installation = false,
         ensure_installed = {
-          "stylua",
           "prettier",
+          "stylua",
         },
       })
     end,
