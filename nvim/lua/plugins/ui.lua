@@ -4,6 +4,22 @@ return {
     lazy = false,
     priority = 1000,
     config = function()
+      require("catppuccin").setup({
+        integrations = {
+          telescope = {
+            enabled = true,
+          },
+        },
+        custom_highlights = function(colors)
+          return {
+            TelescopeNormal = { bg = colors.base },
+            TelescopeBorder = { bg = colors.base, fg = colors.blue },
+            TelescopePromptTitle = { bg = colors.base },
+            TelescopePreviewTitle = { bg = colors.base },
+            TelescopeResultsTitle = { bg = colors.base },
+          }
+        end,
+      })
       vim.cmd.colorscheme("catppuccin-mocha")
     end,
   },
