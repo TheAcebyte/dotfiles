@@ -43,9 +43,13 @@ stow -t ~ <kitty/starship/tmux/nvim>
 ```
 
 > [!NOTE]
-> After installation, open tmux and press `<prefix> + I` to install the required plugins.
+> After opening tmux, press `<prefix> + I` to install the plugins.
+> 
+> After opening Neovim, run `:MasonInstallAll` to install the LSP servers, formatters, and DAP adapters. You can add your own according to the [Configuration](#configuration) section below.
 
 > [!WARNING]
+> Back up your existing configurations before proceeding, as `stow` will refuse to overwrite existing files.
+> 
 > Do not delete the repository after installation. The `stow` command creates symbolic links to files in this directory, so removing it will break your configurations.
 
 # Configuration

@@ -1,4 +1,5 @@
 local options = {
+  -- add your formatters here
   formatters_by_ft = {
     lua = { "stylua" },
     css = { "prettier" },

@@ -14,6 +14,7 @@ dap.listeners.before.event_exited["dapui_config"] = function()
   dapui.close()
 end
 
+-- add your DAP adapters here
 local adapters = { "codelldb" }
 local mason_dap = require "mason-nvim-dap"
 mason_dap.setup { ensure_installed = adapters, handlers = {} }
