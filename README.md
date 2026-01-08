@@ -13,6 +13,7 @@ These are mostly tweaks of [NvChad](https://nvchad.com/) and [DreamsOfCode's tmu
 ![tmux preview](assets/tmux.png)
 ![Neovim](assets/neovim.png)
 ![Neovim debugger](assets/neovim-debugger.png)
+> PS: I MESSED UP THE PANGRAM
 
 # Requirements
 
