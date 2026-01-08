@@ -16,10 +16,11 @@ These are mostly tweaks of [NvChad](https://nvchad.com/) and [DreamsOfCode's tmu
 
 # Requirements
 
-This setup assumes you already have kitty, starship, tmux, and Neovim installed on your system.
+Make sure you have kitty, starship, tmux, and Neovim installed before proceeding.
 
 Additional dependencies:
 - GNU stow
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip)
 - [tpm (Tmux Plugin Manager)](https://github.com/tmux-plugins/tpm)
 
@@ -57,4 +58,4 @@ stow -t ~ <kitty/starship/tmux/nvim>
 | DAP Adapters | [`nvim/.config/nvim/lua/configs/dap.lua`](nvim/.config/nvim/lua/configs/dap.lua) |
 
 > [!NOTE]
-> Don't forget to run `:MasonInstallAll` after restarting Neovim to apply the changes.
+> Don't forget to run `:MasonInstallAll` after restarting Neovim to install the newly configured tools.
