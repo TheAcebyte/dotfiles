@@ -14,7 +14,14 @@ M.base46 = {
     ["@comment"] = { italic = true },
     NormalFloat = { link = "Normal" },
     FloatBorder = { link = "BlinkCmpMenuBorder" },
+    PmenuSel = { bg = "blue" },
   },
+  hl_add = {
+    DiagnosticVirtualTextError = { fg = "red", bg = { "black", "red", 10 } },
+    DiagnosticVirtualTextWarn = { fg = "yellow", bg = { "black", "yellow", 10 } },
+    DiagnosticInfo = { fg = "blue", bg = { "black", "blue", 10 } },
+    DiagnosticHint = { fg = "purple", bg = { "black", "purple", 10 } }
+  }
 }
 
 M.nvdash = { load_on_startup = true }
