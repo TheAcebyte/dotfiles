@@ -10,11 +10,11 @@ M.base46 = {
   integrations = { "dap" },
 
   hl_override = {
-    Comment = { fg = "#8e8e98", italic = true },
-    ["@comment"] = { fg = "#8e8e98", italic = true },
     NormalFloat = { link = "Normal" },
     FloatBorder = { link = "BlinkCmpMenuBorder" },
     PmenuSel = { bg = "blue" },
+    Comment = { fg = "#99a1af", italic = true },
+    ["@comment"] = { fg = "#99a1af", italic = true },
   },
   hl_add = {
     DiagnosticVirtualTextError = { fg = "red", bg = { "black", "red", 10 } },
