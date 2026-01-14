@@ -10,8 +10,8 @@ M.base46 = {
   integrations = { "dap" },
 
   hl_override = {
-    Comment = { italic = true },
-    ["@comment"] = { italic = true },
+    Comment = { fg = "#8e8e98", italic = true },
+    ["@comment"] = { fg = "#8e8e98", italic = true },
     NormalFloat = { link = "Normal" },
     FloatBorder = { link = "BlinkCmpMenuBorder" },
     PmenuSel = { bg = "blue" },

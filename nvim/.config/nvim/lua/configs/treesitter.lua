@@ -6,6 +6,7 @@ local options = {
     "css",
     "html",
     "javascript",
+    "jsdoc",
     "lua",
     "markdown",
     "typescript",
