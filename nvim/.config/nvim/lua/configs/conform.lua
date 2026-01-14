@@ -1,11 +1,14 @@
 local options = {
   -- add your formatters here
+  -- NvChad falls back to LSP formatting if configuration is incorrect or missing
   formatters_by_ft = {
-    lua = { "stylua" },
     css = { "prettier" },
     html = { "prettier" },
-    c = { "lsp" },
-    cpp = { "lsp" },
+    javascript = { "prettier" },
+    javascriptreact = { "prettier" },
+    lua = { "stylua" },
+    typescript = { "prettier" },
+    typescriptreact = { "prettier" },
   },
 
   -- format_on_save = {
