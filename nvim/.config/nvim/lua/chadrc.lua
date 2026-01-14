@@ -19,8 +19,8 @@ M.base46 = {
   hl_add = {
     DiagnosticVirtualTextError = { fg = "red", bg = { "black", "red", 10 } },
     DiagnosticVirtualTextWarn = { fg = "yellow", bg = { "black", "yellow", 10 } },
-    DiagnosticInfo = { fg = "blue", bg = { "black", "blue", 10 } },
-    DiagnosticHint = { fg = "purple", bg = { "black", "purple", 10 } }
+    DiagnosticVirtualTextInfo = { fg = "blue", bg = { "black", "blue", 10 } },
+    DiagnosticVirtualTextHint = { fg = "purple", bg = { "black", "purple", 10 } }
   }
 }
 
