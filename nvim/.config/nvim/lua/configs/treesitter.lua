@@ -5,6 +5,8 @@ local options = {
     "cpp",
     "css",
     "html",
+    "java",
+    "javadoc",
     "javascript",
     "jsdoc",
     "lua",
