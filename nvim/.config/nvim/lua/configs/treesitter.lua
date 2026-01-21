@@ -10,6 +10,7 @@ local options = {
     "javascript",
     "jsdoc",
     "lua",
+    "luadoc",
     "markdown",
     "typescript",
     "vim",
