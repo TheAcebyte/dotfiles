@@ -1,6 +1,7 @@
 local options = {
   -- add your Treesitter parsers here
   ensure_installed = {
+    "arduino",
     "c",
     "cpp",
     "css",
@@ -15,6 +16,7 @@ local options = {
     "typescript",
     "vim",
     "vimdoc",
+    "python",
   },
 }
 
