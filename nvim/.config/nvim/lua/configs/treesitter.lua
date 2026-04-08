@@ -13,10 +13,10 @@ local options = {
     "lua",
     "luadoc",
     "markdown",
+    "python",
     "typescript",
     "vim",
     "vimdoc",
-    "python",
   },
 }
 
