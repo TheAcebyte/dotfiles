@@ -23,7 +23,7 @@ return {
 
   {
     "lukas-reineke/indent-blankline.nvim",
-    event = "VeryLazy",
+    lazy = false,
     opts = {
       scope = {
         enabled = false,
@@ -65,7 +65,7 @@ return {
 
   {
     "mfussenegger/nvim-dap",
-    event = "VeryLazy",
+    lazy = false,
     dependencies = {
       "rcarriga/nvim-dap-ui",
       "nvim-neotest/nvim-nio",
@@ -78,7 +78,7 @@ return {
 
   {
     "luukvbaal/statuscol.nvim",
-    event = "VeryLazy",
+    lazy = false,
     dependencies = {
       "lewis6991/gitsigns.nvim",
     },
@@ -90,7 +90,7 @@ return {
   {
     "mistweaverco/snap.nvim",
     version = "v1.4.5",
-    event = "VeryLazy",
+    lazy = false,
     ---@type SnapUserConfig
     opts = {
       output_dir = "$HOME/Pictures/Screenshots/Snap",
@@ -102,7 +102,7 @@ return {
 
   {
     "christoomey/vim-tmux-navigator",
-    event = "VeryLazy",
+    lazy = false,
     cmd = {
       "TmuxNavigateLeft",
       "TmuxNavigateDown",
@@ -118,5 +118,13 @@ return {
       { "<c-l>", "<cmd><C-U>TmuxNavigateRight<cr>" },
       { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
     },
+  },
+
+  {
+    "lervag/vimtex",
+    lazy = false,
+    init = function()
+      vim.g.vimtex_view_method = "zathura"
+    end,
   },
 }
