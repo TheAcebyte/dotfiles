@@ -22,6 +22,7 @@ Make sure you have kitty, starship, tmux, and Neovim installed before proceeding
 Additional dependencies:
 - GNU stow
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [tree-sitter-cli](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md)
 - [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip)
 - [tpm (Tmux Plugin Manager)](https://github.com/tmux-plugins/tpm)
 
