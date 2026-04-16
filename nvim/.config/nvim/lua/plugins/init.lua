@@ -23,7 +23,7 @@ return {
 
   {
     "lukas-reineke/indent-blankline.nvim",
-    lazy = false,
+    event = "VeryLazy",
     opts = {
       scope = {
         enabled = false,
@@ -65,7 +65,7 @@ return {
 
   {
     "mfussenegger/nvim-dap",
-    lazy = false,
+    event = "VeryLazy",
     dependencies = {
       "rcarriga/nvim-dap-ui",
       "nvim-neotest/nvim-nio",
@@ -78,7 +78,7 @@ return {
 
   {
     "luukvbaal/statuscol.nvim",
-    lazy = false,
+    event = "VeryLazy",
     dependencies = {
       "lewis6991/gitsigns.nvim",
     },
@@ -90,7 +90,7 @@ return {
   {
     "mistweaverco/snap.nvim",
     version = "v1.4.5",
-    lazy = false,
+    event = "VeryLazy",
     ---@type SnapUserConfig
     opts = {
       output_dir = "$HOME/Pictures/Screenshots/Snap",
@@ -102,7 +102,7 @@ return {
 
   {
     "christoomey/vim-tmux-navigator",
-    lazy = false,
+    event = "VeryLazy",
     cmd = {
       "TmuxNavigateLeft",
       "TmuxNavigateDown",
