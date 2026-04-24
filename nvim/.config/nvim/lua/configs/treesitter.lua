@@ -2,6 +2,7 @@ local options = {
   -- add your Treesitter parsers here
   ensure_installed = {
     "arduino",
+    "asm",
     "c",
     "cpp",
     "css",

@@ -30,6 +30,7 @@ The table below lists some additional dependencies:
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | *required for Telescope live grep* |
 | [latexmk](https://mgeier.github.io/latexmk.html) | *compiler backend for VimTeX* |
 | [zathura](https://github.com/pwmt/zathura) | *PDF viewer for VimTeX* |
+| [cargo](https://github.com/pwmt/zathura) | *required for asm_lsp* |
 
 # Installation
 
