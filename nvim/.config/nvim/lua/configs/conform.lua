@@ -2,6 +2,7 @@ local options = {
   -- add your formatters here
   -- NvChad falls back to LSP formatting if configuration is incorrect or missing
   formatters_by_ft = {
+    asm = { "asmfmt" },
     css = { "prettier" },
     html = { "prettier" },
     javascript = { "prettier" },
