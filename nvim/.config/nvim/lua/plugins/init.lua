@@ -127,4 +127,12 @@ return {
       vim.g.vimtex_view_method = "zathura"
     end,
   },
+
+  {
+    "mfussenegger/nvim-lint",
+    event = { "BufReadPost", "BufNewFile", "InsertLeave" },
+    config = function()
+      require "configs.lint"
+    end,
+  },
 }

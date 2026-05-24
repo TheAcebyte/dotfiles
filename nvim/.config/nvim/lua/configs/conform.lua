@@ -8,6 +8,7 @@ local options = {
     javascript = { "prettier" },
     javascriptreact = { "prettier" },
     lua = { "stylua" },
+    python = { "black" },
     typescript = { "prettier" },
     typescriptreact = { "prettier" },
   },

@@ -9,7 +9,6 @@ local servers = {
   "html",
   "jdtls",
   "pyright",
-  "ruff",
   "vtsls",
 }
 
