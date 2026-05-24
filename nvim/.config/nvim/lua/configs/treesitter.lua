@@ -3,6 +3,7 @@ local options = {
   ensure_installed = {
     "arduino",
     "asm",
+    "bash",
     "c",
     "cpp",
     "css",
@@ -11,6 +12,7 @@ local options = {
     "javadoc",
     "javascript",
     "jsdoc",
+    "json",
     "lua",
     "luadoc",
     "markdown",

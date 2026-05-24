@@ -4,10 +4,12 @@ require("nvchad.configs.lspconfig").defaults()
 local servers = {
   "arduino_language_server",
   "asm_lsp",
+  "bashls",
   "clangd",
   "cssls",
   "html",
   "jdtls",
+  "jsonls",
   "pyright",
   "vtsls",
 }
