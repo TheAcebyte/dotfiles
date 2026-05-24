@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "catppuccin",
+  theme = "tokyodark",
   integrations = { "dap" },
 
   hl_override = {
