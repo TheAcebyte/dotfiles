@@ -3,6 +3,7 @@ require("nvchad.configs.lspconfig").defaults()
 -- add your LSP servers here
 local servers = {
   "arduino_language_server",
+  "asm_lsp",
   "clangd",
   "cssls",
   "html",
