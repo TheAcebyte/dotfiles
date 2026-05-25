@@ -22,14 +22,14 @@ The table below lists some additional dependencies:
 
 | Dependency | Note |
 |------------|------|
-| GNU stow | *symlink manager for the dotfiles* |
-| [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip) | *font used in the dotfiles* |
-| [tpm](https://github.com/tmux-plugins/tpm) | *tmux plugin manager* |
-| [tree-sitter-cli](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md) | *required for Treesitter* |
-| [ripgrep](https://github.com/BurntSushi/ripgrep) | *required for Telescope live grep* |
-| [latexmk](https://mgeier.github.io/latexmk.html) | *compiler backend for VimTeX* |
-| [zathura](https://github.com/pwmt/zathura) | *PDF viewer for VimTeX* |
-| [cargo](https://github.com/pwmt/zathura) | *required for asm_lsp* |
+| GNU stow | symlink manager for the dotfiles |
+| [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip) | font used in the dotfiles |
+| [tpm](https://github.com/tmux-plugins/tpm) | tmux plugin manager |
+| [tree-sitter-cli](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md) | required for Treesitter |
+| [ripgrep](https://github.com/BurntSushi/ripgrep) | required for Telescope live grep |
+| [latexmk](https://mgeier.github.io/latexmk.html) | compiler backend for VimTeX |
+| [zathura](https://github.com/pwmt/zathura) | PDF viewer for VimTeX |
+| [cargo](https://github.com/pwmt/zathura) | required for asm_lsp |
 
 # Installation
 
