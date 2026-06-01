@@ -30,6 +30,7 @@ The table below lists some additional dependencies:
 | [latexmk](https://mgeier.github.io/latexmk.html) | compiler backend for VimTeX |
 | [zathura](https://github.com/pwmt/zathura) | PDF viewer for VimTeX |
 | [cargo](https://github.com/pwmt/zathura) | required for asm_lsp |
+| [shellcheck](https://github.com/koalaman/shellcheck) | recommended for linting Bash |
 
 # Installation
 
@@ -65,8 +66,9 @@ stow -t ~ <kitty/starship/tmux/nvim>
 |-----------|-------------------|
 | Treesitter | [`nvim/.config/nvim/lua/configs/treesitter.lua`](nvim/.config/nvim/lua/configs/treesitter.lua) |
 | LSP Servers | [`nvim/.config/nvim/lua/configs/lspconfig.lua`](nvim/.config/nvim/lua/configs/lspconfig.lua) |
-| Formatters | [`nvim/.config/nvim/lua/configs/conform.lua`](nvim/.config/nvim/lua/configs/conform.lua) |
 | DAP Adapters | [`nvim/.config/nvim/lua/configs/dap.lua`](nvim/.config/nvim/lua/configs/dap.lua) |
+| Linters | [`nvim/.config/nvim/lua/configs/lint.lua`](nvim/.config/nvim/lua/configs/lint.lua) |
+| Formatters | [`nvim/.config/nvim/lua/configs/conform.lua`](nvim/.config/nvim/lua/configs/conform.lua) |
 
 > [!NOTE]
 > Don't forget to run `:MasonInstallAll` after restarting Neovim to install the newly configured tools.

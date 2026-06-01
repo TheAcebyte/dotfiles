@@ -3,7 +3,6 @@ local lint = require "lint"
 -- add your linters here
 lint.linters_by_ft = {
   python = { "ruff" },
-  sh = { "shellcheck" },
 }
 
 vim.api.nvim_create_autocmd({ "BufEnter", "BufWritePost", "InsertLeave" }, {
