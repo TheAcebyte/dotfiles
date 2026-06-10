@@ -122,7 +122,7 @@ return {
 
   {
     "lervag/vimtex",
-    lazy = false,
+    event = "VeryLazy",
     init = function()
       vim.g.vimtex_view_method = "zathura"
     end,
@@ -133,6 +133,14 @@ return {
     event = { "BufReadPost", "BufNewFile", "InsertLeave" },
     config = function()
       require "configs.lint"
+    end,
+  },
+
+  {
+    "windwp/nvim-ts-autotag",
+    event = "VeryLazy",
+    config = function()
+      require("nvim-ts-autotag").setup()
     end,
   },
 }

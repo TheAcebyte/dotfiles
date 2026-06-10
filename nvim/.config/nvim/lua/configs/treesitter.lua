@@ -17,6 +17,7 @@ local options = {
     "luadoc",
     "markdown",
     "python",
+    "tsx",
     "typescript",
     "vim",
     "vimdoc",
