@@ -15,13 +15,15 @@ M.base46 = {
     PmenuSel = { bg = "blue" },
     Comment = { fg = "#99a1af", italic = true },
     ["@comment"] = { fg = "#99a1af", italic = true },
+    DiagnosticInfo = { fg = "blue" },
+    St_LspInfo = { fg = "blue" },
   },
   hl_add = {
     DiagnosticVirtualTextError = { fg = "red", bg = { "black", "red", 10 } },
     DiagnosticVirtualTextWarn = { fg = "yellow", bg = { "black", "yellow", 10 } },
+    DiagnosticVirtualTextHint = { fg = "purple", bg = { "black", "purple", 10 } },
     DiagnosticVirtualTextInfo = { fg = "blue", bg = { "black", "blue", 10 } },
-    DiagnosticVirtualTextHint = { fg = "purple", bg = { "black", "purple", 10 } }
-  }
+  },
 }
 
 M.nvdash = { load_on_startup = true }
