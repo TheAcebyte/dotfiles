@@ -143,4 +143,10 @@ return {
       require("nvim-ts-autotag").setup()
     end,
   },
+
+  {
+    "sphamba/smear-cursor.nvim",
+    event = "VeryLazy",
+    opts = {},
+  },
 }
