@@ -7,6 +7,7 @@ local options = {
     "c",
     "cpp",
     "css",
+    "dockerfile",
     "html",
     "java",
     "javadoc",
