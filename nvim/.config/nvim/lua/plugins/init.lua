@@ -149,4 +149,13 @@ return {
     event = "VeryLazy",
     opts = {},
   },
+
+  {
+    "karb94/neoscroll.nvim",
+    event = "VeryLazy",
+    opts = {
+      duration_multiplier = "0.15",
+      easing = "circular",
+    },
+  }
 }
