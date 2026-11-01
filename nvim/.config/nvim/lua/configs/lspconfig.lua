@@ -12,6 +12,7 @@ local servers = {
   "jdtls",
   "jsonls",
   "pyright",
+  "tinymist",
   "vtsls",
 }
 

@@ -20,6 +20,7 @@ local options = {
     "python",
     "tsx",
     "typescript",
+    "typst",
     "vim",
     "vimdoc",
   },
